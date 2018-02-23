@@ -25678,6 +25678,10 @@ ion-navbar.toolbar {
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
 
+ion-content {
+  background-image: url("../assets/fond.jpg");
+}
+
 .boutonsmenu {
   position: absolute;
   bottom: 6%;
@@ -25688,7 +25692,44 @@ ion-navbar.toolbar {
   bottom: 40%;
 }
 
+.boutonvalider {
+  position: absolute;
+  bottom: 6%;
+}
+
+.contenujoueurs {
+  position: absolute;
+  top: 15%;
+  bottom: 10%;
+}
+
+.stylepolice {
+  font-size: 16px;
+  text-align: center;
+}
+
+.boutonparametres {
+  position: absolute;
+  bottom: 6%;
+}
+
+.stylepolice {
+  font-size: 16px;
+  text-align: center;
+}
+
 .boutonsregles {
   position: absolute;
   bottom: 6%;
+}
+
+.textregles {
+  position: absolute;
+  top: 15%;
+  bottom: 10%;
+}
+
+.stylepolice {
+  font-size: 16px;
+  text-align: center;
 }

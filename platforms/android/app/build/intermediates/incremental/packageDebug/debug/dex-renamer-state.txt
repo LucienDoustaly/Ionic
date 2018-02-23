@@ -1,4 +1,4 @@
-#Fri Feb 23 10:49:18 CET 2018
-base.0=D\:\\Documents\\Cours\\M1\\ANDROID\\Mini-Projet\\IsenEnSlip\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Fri Feb 23 16:20:08 CET 2018
+base.0=D\:\\Documents\\Cours\\M1\\ANDROID\\Mini Projet\\Ionic\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 renamed.0=classes.dex
-file.0=D\:\\Documents\\Cours\\M1\\ANDROID\\Mini-Projet\\IsenEnSlip\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
+file.0=D\:\\Documents\\Cours\\M1\\ANDROID\\Mini Projet\\Ionic\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex

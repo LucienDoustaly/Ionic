@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { HomePage } from '../home/home';
 import { AlertController } from 'ionic-angular';
 
 
@@ -25,8 +24,13 @@ export class ReglesPage {
   launchPopUp() {
     let alert = this.alertCtrl.create({
       title: 'Balais couilles',
-      subTitle: '',
-      buttons: ['Tant pis']
+      subTitle: "On peut plus rien faire pour toi la, désolé",
+      buttons: [{
+        text: "Tan pis",
+        handler: data => {
+          this.goBackToMenu();
+        }
+      }]
     });
     alert.present();
   }

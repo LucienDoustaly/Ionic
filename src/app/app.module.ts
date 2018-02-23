@@ -4,12 +4,12 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 
-
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ReglesPage } from '../pages/regles/regles';
 import { ParametresPage } from '../pages/parametres/parametres';
 import { JoueurPage } from '../pages/joueur/joueur';
+import { PlateauPage } from '../pages/plateau/plateau';
 
 @NgModule({
   declarations: [
@@ -17,7 +17,8 @@ import { JoueurPage } from '../pages/joueur/joueur';
     HomePage,
     ReglesPage,
     ParametresPage,
-    JoueurPage
+    JoueurPage,
+    PlateauPage
   ],
   imports: [
     BrowserModule,
@@ -29,7 +30,8 @@ import { JoueurPage } from '../pages/joueur/joueur';
     HomePage,
     ReglesPage,
     ParametresPage,
-    JoueurPage
+    JoueurPage,
+    PlateauPage
   ],
   providers: [
     StatusBar,

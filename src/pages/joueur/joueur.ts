@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { PlateauPage } from '../plateau/plateau';
 
 /**
  * Generated class for the JoueurPage page.
@@ -15,11 +16,19 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class JoueurPage {
 
+  joueurs: number;
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad JoueurPage');
   }
+
+
+  goToPlateau(nbrJoueur){
+    this.navCtrl.push(PlateauPage, nbrJoueur);
+  }
+
 
 }

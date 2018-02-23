@@ -22,4 +22,11 @@ export class ParametresPage {
     console.log('ionViewDidLoad ParametresPage');
   }
 
+  
+  goBackToMenu() {
+    this.navCtrl.pop();
+  }
+
+  
+
 }
