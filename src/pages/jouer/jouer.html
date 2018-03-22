@@ -1,0 +1,28 @@
+<ion-content padding>
+
+  <ion-grid class="carte">
+    <ion-row style="margin-left:60px;"> 
+        
+      <ion-col col-4>
+        <img height="120%" width="110%" src="assets/imgs/bluecard.png"><strong class="textcarte">{{ apiProvider.name }}</strong>
+      </ion-col>
+
+  
+
+      <ion-col col-2>
+        <img class="circle" height="100px" width="100px" src="assets/imgs/circle.png">
+        <timer #timer timeInSeconds="90"></timer>
+      </ion-col>
+
+
+      <ion-col col-4>
+          <img height="120%" width="110%" src="assets/imgs/redcard.png">
+          <strong class="textcarte">{{ apiProvider.activity }}</strong>
+      </ion-col>
+      
+    
+      
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

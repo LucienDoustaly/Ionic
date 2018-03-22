@@ -12,18 +12,21 @@
         </ion-row>
       </ion-grid>
   
-
-
-
       <ion-grid class="textregles">
 
         <ion-row>
           <ion-col col-3></ion-col>
 
           <ion-col col-6>
-            <p class="stylepolice">
-              On am we offices expense thought. Its hence ten smile age means. Seven chief sight far point any. Of so high into easy. Dashwoods eagerness oh extensive as discourse sportsman frankness. Husbands see disposed surprise likewise humoured yet pleasure. Fifteen no inquiry cordial so resolve garrets as. Impression was estimating surrounded solicitude indulgence son shy. 
-           </p>
+            <p class="stylepolice"> 
+              Les règles sont simples :
+            </p>
+                <ul>
+                    <li>Lancer une partie</li>
+                    <li>Placer le téléphone sur son front</li>
+                    <li>Vous avez maintenant 90 secondes pour deviner qui vous êtes et ce que vous faites</li>
+                    <li>Une fois le temps terminé, passer le téléphone au joueur suivant</li>
+                </ul>
           </ion-col>
 
           <ion-col col-3></ion-col>
@@ -31,24 +34,19 @@
 
       </ion-grid>
 
-
-
-
-
-      
       <ion-grid class="boutonsregles">
         <ion-row>
             
           <ion-col col-2></ion-col>
           
           <ion-col col-3>
-            <button col-12 ion-button color="danger" round (click)="goBackToMenu()">J'ai compris</button>
+            <button col-12 ion-button color="danger" (click)="goBackToMenu()">J'ai compris</button>
           </ion-col>
             
           <ion-col col-2></ion-col>
             
           <ion-col col-3>
-            <button col-12 ion-button color="danger" round (click)="launchPopUp()">J'ai pas compris</button>
+            <button col-12 ion-button color="danger" (click)="launchPopUp()">J'ai pas compris</button>
           </ion-col>
             
           <ion-col col-2></ion-col>

@@ -5,13 +5,24 @@
       
           <ion-col col-4></ion-col>
           <ion-col col-4>
-            <p class="stylepolice">PARAMETRES</p>
+            <p class="stylepolice">Ajouter une Musique</p>
           </ion-col>
           <ion-col col-4></ion-col>
   
         </ion-row>
       </ion-grid>
+
+
+      <ion-grid>
+        <ion-row>
+          <ion-col col-5></ion-col>
+          <ion-col col-2>
+            <button col-12 ion-button color="danger" (click)="ajouteMusique()">Choix Musique</button>
+          </ion-col>
+          <ion-col col-5></ion-col>
   
+        </ion-row>
+      </ion-grid>
 
       <ion-grid class="boutonparametres">
         <ion-row>
@@ -19,7 +30,7 @@
           <ion-col col-4></ion-col>
           
           <ion-col col-4>
-            <button col-12 ion-button color="danger" round (click)="goBackToMenu()">Valider</button>
+            <button col-12 ion-button color="danger" (click)="goBackToMenu()">Valider</button>
           </ion-col>
 
           <ion-col col-4></ion-col>

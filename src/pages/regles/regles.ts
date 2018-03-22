@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, Platform } from 'ionic-angular';
 import { AlertController } from 'ionic-angular';
+import { Media, MediaObject } from '@ionic-native/media';
 
 
 @IonicPage()
@@ -10,17 +11,32 @@ import { AlertController } from 'ionic-angular';
 })
 export class ReglesPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, private alertCtrl: AlertController) {
-  }
+  public audio: MediaObject;
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad ReglesPage');
-  }
+  constructor(public platform: Platform, public navCtrl: NavController, 
+    public navParams: NavParams, private alertCtrl: AlertController, 
+    private media: Media) { }
 
+
+  //retourne au menu du jeu
   goBackToMenu() {
     this.navCtrl.pop();
   }
 
+  //joue le son (pour la popup)
+  playSound() {
+    if(this.audio)
+    {
+      this.audio.stop();
+      this.audio.release();
+    }
+
+    this.audio = this.media.create('/android_asset/www/assets/raw/ah.mp3');
+    this.audio.play();
+    this.audio.setVolume(0.8);
+  }
+
+  //lance la popup
   launchPopUp() {
     let alert = this.alertCtrl.create({
       title: 'Balais couilles',
@@ -33,8 +49,7 @@ export class ReglesPage {
       }]
     });
     alert.present();
+    this.playSound();
   }
-
-
 
 }

@@ -25679,33 +25679,67 @@ ion-navbar.toolbar {
 }
 
 ion-content {
-  background-image: url("../assets/fond.jpg");
+  background-image: url("../assets/imgs/fond.jpg");
 }
 
 .boutonsmenu {
   position: absolute;
   bottom: 6%;
-}
-
-.logomenu {
-  position: absolute;
-  bottom: 40%;
-}
-
-.boutonvalider {
-  position: absolute;
-  bottom: 6%;
-}
-
-.contenujoueurs {
-  position: absolute;
-  top: 15%;
-  bottom: 10%;
+  text-align: center;
 }
 
 .stylepolice {
   font-size: 16px;
   text-align: center;
+}
+
+.logomenu {
+  position: absolute;
+  bottom: 20%;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 130%;
+}
+
+page-jouer {
+  text-align: center;
+}
+
+.carte {
+  position: absolute;
+  top: 20%;
+  height: 50%;
+}
+
+.circle {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.textcarte {
+  text-transform: uppercase;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  bottom: 0;
+  right: 5%;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
+}
+
+img {
+  width: 100%;
 }
 
 .boutonparametres {
@@ -25732,4 +25766,28 @@ ion-content {
 .stylepolice {
   font-size: 16px;
   text-align: center;
+}
+
+.timer {
+  border-bottom: none !important;
+  font-size: 5rem !important;
+  height: 1em !important;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.reloadButton {
+  border-bottom: none !important;
+  font-size: 5rem !important;
+  height: 1em !important;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }

@@ -24,6 +24,42 @@
     },
     "cordova-plugin-ionic-keyboard": {
       "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "cordova-plugin-nativeaudio": {
+      "PACKAGE_NAME": "fr.isen.isenenslp"
+    },
+    "cordova-plugin-filechooser": {
+      "PACKAGE_NAME": "fr.isen.isenenslp"
+    },
+    "cordova-plugin-x-toast": {
+      "PACKAGE_NAME": "fr.isen.isenenslp"
+    },
+    "cordova-plugin-media": {
+      "PACKAGE_NAME": "fr.isen.isenenslp"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "fr.isen.isenenslp"
+    },
+    "cordova-plugin-android-permissions": {
+      "PACKAGE_NAME": "fr.isen.isenenslp"
+    },
+    "cordova.plugins.diagnostic": {
+      "PACKAGE_NAME": "fr.isen.isenenslp"
+    },
+    "cordova-custom-config": {
+      "PACKAGE_NAME": "fr.isen.isenenslp"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "fr.isen.isenenslp"
+    },
+    "cordova-plugin-filepath": {
+      "PACKAGE_NAME": "fr.isen.isenenslp"
+    },
+    "cordova-plugin-background-mode": {
+      "PACKAGE_NAME": "fr.isen.isenenslp"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "fr.isen.isenenslp"
     }
   },
   "dependent_plugins": {
